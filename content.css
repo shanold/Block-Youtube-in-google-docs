@@ -1,0 +1,9 @@
+/* Completely remove education container */
+.docs-embeddable-player-container,
+.yt-education-audio-backend {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  overflow: hidden !important;
+}

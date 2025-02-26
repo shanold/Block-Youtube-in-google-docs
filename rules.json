@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||youtubeeducation.com^",
+      "resourceTypes": ["sub_frame", "script", "media"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||youtube.com/embed/",
+      "resourceTypes": ["sub_frame"]
+    }
+  }
+]
