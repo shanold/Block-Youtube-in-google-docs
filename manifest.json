@@ -1,26 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Google Docs YouTube Education Blocker",
-  "version": "2.2",
-  "description": "Blocks YouTube Education previews and audio in Google Docs",
-  "icons": {
-    "128": "icon128.png"
-  },
+  "name": "Block Web Preview",
+  "version": "1.0",
+  "description": "Blocks YouTube embeds in Google Docs previews",
   "permissions": [
-    "declarativeNetRequest"
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
-    "*://docs.google.com/document/*",
-    "*://*.youtube.com/*",
-    "*://*.youtubeeducation.com/*"
-  ],
-  "content_scripts": [
-    {
-      "matches": ["*://docs.google.com/document/*"],
-      "css": ["content.css"],
-      "js": ["content.js"],
-      "run_at": "document_start"
-    }
+    "https://docs.google.com/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
