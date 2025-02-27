@@ -4,8 +4,9 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
-      "urlFilter": "||youtubeeducation.com^",
-      "resourceTypes": ["sub_frame", "script", "media"]
+      "urlFilter": "||youtube.com/embed/*",
+      "resourceTypes": ["sub_frame"],
+      "domains": ["docs.google.com"]
     }
   },
   {
@@ -13,8 +14,9 @@
     "priority": 1,
     "action": { "type": "block" },
     "condition": {
-      "urlFilter": "||youtube.com/embed/",
-      "resourceTypes": ["sub_frame"]
+      "urlFilter": "||youtu.be/*",
+      "resourceTypes": ["sub_frame"],
+      "domains": ["docs.google.com"]
     }
   }
 ]
