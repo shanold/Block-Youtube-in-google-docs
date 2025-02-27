@@ -28,5 +28,15 @@
       "resourceTypes": ["sub_frame", "media"],
       "domains": ["docs.google.com"]
     }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*youtubeeducation.com/*",
+      "resourceTypes": ["sub_frame", "media"],
+      "domains": ["docs.google.com"]
+    }
   }
 ]
