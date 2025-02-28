@@ -4,7 +4,7 @@
     <updatecheck 
       codebase='https://shanold.github.io/Block-Youtube-in-google-docs/Blockdocpreview.crx'
       version='1.0'
-      prodversionmin='112.0.0.0'
+      prodversionmin='64.0.3242'
     />
   </app>
 </gupdate>
