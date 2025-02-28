@@ -3,6 +3,7 @@
   "name": "Block Web Preview",
   "version": "1.0",
   "description": "Blocks YouTube embeds in Google Docs previews",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsD8t4L...",
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess"
