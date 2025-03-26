@@ -9,7 +9,7 @@
     "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
-    "https://docs.google.com/*"
+    "https://docs.google.com/document/*"
   ],
   "declarative_net_request": {
     "rule_resources": [
